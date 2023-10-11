@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhss.job.dao.ZhssResultZbMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zhss.job.entity.ZhssResultZb">
+        <id column="id" property="id" />
+        <result column="index_id" property="indexId" />
+        <result column="index_name" property="indexName" />
+        <result column="stat_date" property="statDate" />
+        <result column="unit" property="unit" />
+        <result column="org_id" property="orgId" />
+        <result column="city_type" property="cityType" />
+        <result column="period" property="period" />
+        <result column="dim_val" property="dimVal" />
+        <result column="val" property="val" />
+        <result column="val_lj" property="valLj" />
+        <result column="val_tq" property="valTq" />
+        <result column="val_ljtq" property="valLjtq" />
+        <result column="val_sq" property="valSq" />
+        <result column="val_jh" property="valJh" />
+        <result column="val_mb" property="valMb" />
+        <result column="val_wcl" property="valWcl" />
+        <result column="val_tb_zje" property="valTbZje" />
+        <result column="val_hb_zje" property="valHbZje" />
+        <result column="val_tb" property="valTb" />
+        <result column="val_hb" property="valHb" />
+        <result column="special_val" property="specialVal" />
+        <result column="val_pm" property="valPm" />
+        <result column="val_top_pm" property="valTopPm" />
+        <result column="val_tq_pm" property="valTqPm" />
+        <result column="source" property="source" />
+        <result column="lx" property="lx" />
+        <result column="verison" property="verison" />
+        <result column="warn_count" property="warnCount" />
+        <result column="remarks" property="remarks" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="insert_time" property="insertTime" />
+        <result column="val_a" property="valA" />
+        <result column="val_b" property="valB" />
+        <result column="val_c" property="valC" />
+        <result column="val_d" property="valD" />
+        <result column="val_zll" property="valZll" />
+        <result column="val_cfs" property="valCfs" />
+        <result column="val_lxs" property="valLxs" />
+        <result column="str_id" property="strId" />
+        <result column="dim_id" property="dimId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, index_id, index_name, stat_date, unit, org_id, city_type, period, dim_val, val, val_lj, val_tq, val_ljtq, val_sq, val_jh, val_mb, val_wcl, val_tb_zje, val_hb_zje, val_tb, val_hb, special_val, val_pm, val_top_pm, val_tq_pm, source, lx, verison, warn_count, remarks, create_time, update_time, insert_time, val_a, val_b, val_c, val_d, val_zll, val_cfs, val_lxs, str_id, dim_id
+    </sql>
+
+</mapper>
